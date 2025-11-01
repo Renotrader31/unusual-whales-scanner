@@ -1,0 +1,21 @@
+# Vercel Deployment Requirements
+# Minimal set for serverless functions
+
+# Core dependencies
+aiohttp==3.9.1
+pydantic==2.5.2
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Logging
+loguru==0.7.2
+
+# Rate limiting
+aiolimiter==1.1.0
+
+# Data processing (lightweight alternatives)
+numpy==1.26.2
+pandas==2.1.4
+
+# HTTP client
+requests==2.31.0

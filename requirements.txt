@@ -1,0 +1,75 @@
+# Unusual Whales Ultimate Scanner - Requirements
+# Core Framework
+
+# Async HTTP & WebSockets
+aiohttp>=3.9.0
+websockets>=12.0
+asyncio-mqtt>=0.16.1
+
+# Data Processing
+polars>=0.20.0
+pandas>=2.1.0
+numpy>=1.26.0
+scipy>=1.11.0
+TA-Lib>=0.4.28
+
+# Database
+asyncpg>=0.29.0
+redis>=5.0.0
+SQLAlchemy>=2.0.0
+alembic>=1.13.0
+psycopg2-binary>=2.9.9
+
+# Web Framework & API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Task Queue & Scheduling
+celery>=5.3.0
+redis>=5.0.0
+APScheduler>=3.10.4
+
+# Retry & Rate Limiting
+tenacity>=8.2.3
+ratelimit>=2.2.1
+backoff>=2.2.1
+
+# Notifications
+discord.py>=2.3.2
+python-telegram-bot>=20.7
+aiosmtplib>=3.0.1
+
+# Dashboard & Visualization
+streamlit>=1.30.0
+plotly>=5.18.0
+altair>=5.2.0
+
+# ML/AI (Optional but recommended)
+scikit-learn>=1.4.0
+xgboost>=2.0.3
+prophet>=1.1.5
+
+# Monitoring & Logging
+python-json-logger>=2.0.7
+loguru>=0.7.2
+prometheus-client>=0.19.0
+
+# Configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+tomli>=2.0.1
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+httpx>=0.26.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+orjson>=3.9.10
+httpx>=0.26.0
+rich>=13.7.0
