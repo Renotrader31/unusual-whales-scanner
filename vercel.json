@@ -1,6 +1,1 @@
-{
-  "version": 2,
-  "buildCommand": "pip install -r requirements_vercel.txt",
-  "devCommand": "python -m http.server 3000",
-  "installCommand": "pip install -r requirements_vercel.txt"
-}
+
